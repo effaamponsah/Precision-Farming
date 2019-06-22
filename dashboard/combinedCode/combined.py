@@ -2,35 +2,11 @@ from call import callUser
 #from ds18b20 import loop, sensor, read, kill
 import sqlite3 as sql
 from gy21 import humidity
-
 from ADC import measure
-
 from temp2 import read
 import time
 connection = sql.connect("IoTDatabase.db")
 cur = connection.cursor()
-
-#Twilio Account Details
-
-'''message = client.messages \
-                .create(
-                     body="This Is From IntelFarm...{{label}} needs to attended to check the latest reading {{label}}{{reading}} here {{weblink}}",
-                     from_='+19513833556',
-                     to='+233274008316'
-                 )
-
-print(message.sid)
-'''
-
-'''call = client.calls.create(
-                        url='http://10.10.64.13:8000', #this links to voice to be played
-                     from_='+19513833556',
-                     to='+233274008316'
-                    )
-
-print(call.sid)
-'''
-
 if __name__ == '__main__':
     try:
         while True:
