@@ -60,13 +60,13 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} />
+        <Logo img_src={`${baseUrl}img/sprout.svg`} />
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href="#b">Example Link</Button>
-            <Button href={docUrl("doc2.html")}>Example Link 2</Button>
+            <Button href="#try">View Devices used</Button>
+            {/* <Button href="#b">Example Link</Button> */}
+            <Button href={docUrl("doc2.html")}>Docs</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -98,8 +98,8 @@ class Index extends React.Component {
         className="productShowcaseSection paddingBottom"
         style={{ textAlign: "center" }}
       >
-        <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
+        {/* <h2>Feature Callout</h2>
+        <MarkdownBlock>These are features of this project</MarkdownBlock> */}
       </div>
     );
 
@@ -108,26 +108,24 @@ class Index extends React.Component {
         {[
           {
             content:
-              "To make your landing page more attractive, use illustrations! Check out " +
-              "[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. " +
-              "The illustrations you see on this page are from unDraw.",
-            image: `${baseUrl}img/undraw_code_review.svg`,
+              "Reduce time spent each day visiting your farm. Time is money and dont waste it !!!",
+            image: `${baseUrl}img/undraw_in_no_time_6igu.svg`,
             imageAlign: "left",
-            title: "Wonderful SVG Illustrations"
+            title: "Save time"
           }
         ]}
       </Block>
     );
 
     const Description = () => (
-      <Block background="dark" id="#b">
+      <Block background="light" id="#b">
         {[
           {
             content:
-              "This is another description of how this project is useful",
-            image: `${baseUrl}img/undraw_note_list.svg`,
+              "Having a tight Schedule?, all you need is a mobile phone or an internet connected device and you are there",
+            image: `${baseUrl}img/undraw_absorbed_in_xahs.svg`,
             imageAlign: "right",
-            title: "Description"
+            title: "Data Access, limitless"
           }
         ]}
       </Block>
@@ -138,10 +136,10 @@ class Index extends React.Component {
         {[
           {
             content:
-              "Each new Docusaurus project has **randomly-generated** theme colors.",
-            image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
+              "With every device connected to your farm, you get **insight** from farm without missing a thing",
+            image: `${baseUrl}img/undraw_investing_7u74.svg`,
             imageAlign: "right",
-            title: "Randomly Generated Theme Colors"
+            title: "Farm Analytics"
           }
         ]}
       </Block>
@@ -151,16 +149,22 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: "This is the content of my feature",
-            image: `${baseUrl}img/undraw_react.svg`,
+            content:
+              "Data transmission is between you and your device." +
+              "<br />" +
+              "**No intermediaries**",
+            image: `${baseUrl}img/undraw_secure_server_s9u8.svg`,
             imageAlign: "top",
-            title: "Feature One"
+            title: "Secured Data"
           },
           {
-            content: "The content of my second feature",
-            image: `${baseUrl}img/undraw_operating_system.svg`,
+            content:
+              "No problem" +
+              "<br />" +
+              "Call a dedicated line and receive updates from Twilio Ml",
+            image: `${baseUrl}img/undraw_mobile_application_s7d0.svg`,
             imageAlign: "top",
-            title: "Feature Two"
+            title: "Offline ?"
           }
         ]}
       </Block>
@@ -204,7 +208,7 @@ class Index extends React.Component {
           <LearnHow />
           <TryOut />
           <Description />
-          <Showcase />
+          {/* <Showcase /> */}
         </div>
       </div>
     );

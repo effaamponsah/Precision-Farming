@@ -22,7 +22,7 @@ const users = [
 
 const siteConfig = {
   title: 'Precision Farming', // Title for your website.
-  tagline: 'Farmers Enemy',
+  tagline: 'Your farm in your palm',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -41,20 +41,20 @@ const siteConfig = {
     {doc: 'doc1', label: 'Docs'},
     {doc: 'doc4', label: 'API'},
     {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    // {blog: true, label: 'Blog'},
   ],
 
   // If you have users set above, you add it here:
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
-  favicon: 'img/favicon.ico',
+  headerIcon: 'img/sprout.png',
+  footerIcon: 'img/sprout.png',
+  favicon: 'img/sprout.png',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#57545a',
+    primaryColor: '#004cc9',
     secondaryColor: '#3c3a3e',
   },
 
@@ -73,7 +73,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} Created at IoT DevLabs University of Cape Coast`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
@@ -100,7 +100,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  //   repoUrl: 'https://github.com/facebook/test-site',
+    repoUrl: 'https://github.com/effaamponsah/Precision-Farming',
 };
 
 module.exports = siteConfig;
