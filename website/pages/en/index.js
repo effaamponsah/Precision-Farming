@@ -136,7 +136,7 @@ class Index extends React.Component {
         {[
           {
             content:
-              "With every device connected to your farm, you get **insight** from farm without missing a thing",
+              "With every device connected to your farm, you get **insight** from your farm without missing a thing",
             image: `${baseUrl}img/undraw_investing_7u74.svg`,
             imageAlign: "right",
             title: "Farm Analytics"
@@ -161,7 +161,7 @@ class Index extends React.Component {
             content:
               "No problem" +
               "<br />" +
-              "Call a dedicated line and receive updates from Twilio Ml",
+              "Call a dedicated line and receive **live** updates from Twilio Ml",
             image: `${baseUrl}img/undraw_mobile_application_s7d0.svg`,
             imageAlign: "top",
             title: "Offline ?"

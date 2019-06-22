@@ -47,27 +47,20 @@ class Footer extends React.Component {
               Extending Capabilities
             </a>
           </div>
-          {/* <div>
+          <div>
             <h5>Community</h5>
-            <a href={this.pageUrl("users.html", this.props.language)}>
-              User Showcase
-            </a>
+            {/* <a href={this.pageUrl("users.html", this.props.language)}>
+              Want to improve the system?
+            </a> */}
             <a
-              href="https://stackoverflow.com/questions/tagged/"
+              href="https://github.com/effaamponsah/Precision-Farming"
               target="_blank"
               rel="noreferrer noopener"
             >
-              Stack Overflow
+              Submit a bug or feature
             </a>
-            <a href="https://discordapp.com/">Project Chat</a>
-            <a
-              href="https://twitter.com/"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              Twitter
-            </a>
-          </div> */}
+           
+          </div>
           <div>
             <h5>More</h5>
             <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
@@ -86,7 +79,7 @@ class Footer extends React.Component {
           </div>
         </section>
 
-        <a
+        {/* <a
           href="https://opensource.facebook.com/"
           target="_blank"
           rel="noreferrer noopener"
@@ -98,7 +91,7 @@ class Footer extends React.Component {
             width="170"
             height="45"
           />
-        </a>
+        </a> */}
         <section className="copyright">{this.props.config.copyright}</section>
       </footer>
     
