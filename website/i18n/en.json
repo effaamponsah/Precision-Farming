@@ -3,14 +3,19 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "Farmers Enemy",
+    "tagline": "Your farm in your palm",
     "docs": {
+      "dashboard": {
+        "title": "Dashboard Structure",
+        "sidebar_label": "Dashboard"
+      },
       "doc1": {
         "title": "Latin-ish",
         "sidebar_label": "Example Page"
       },
       "doc2": {
-        "title": "document number 2"
+        "title": "document number 2",
+        "sidebar_label": "Raspberry pi"
       },
       "doc3": {
         "title": "This is document number 3"
@@ -20,19 +25,25 @@
       },
       "doc5": {
         "title": "Fifth Document"
+      },
+      "doc6": {
+        "title": "Document 6"
+      },
+      "starting": {
+        "title": "Welcome",
+        "sidebar_label": "Welcome"
       }
     },
     "links": {
       "Docs": "Docs",
       "API": "API",
-      "Help": "Help",
-      "Blog": "Blog"
+      "Help": "Help"
     },
     "categories": {
-      "Docusaurus": "Docusaurus",
-      "Test": "Test",
-      "First Category": "First Category",
-      "Second Category": "Second Category"
+      "Overview": "Overview",
+      "Software": "Software",
+      "Hardware": "Hardware",
+      "API": "API"
     }
   },
   "pages-strings": {

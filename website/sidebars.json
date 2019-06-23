@@ -1,11 +1,21 @@
 {
   "docs": {
-    "Docusaurus": ["doc1", "doc4"],
-    "Test": ["doc4"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
-  },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
+    "Overview": [
+      "starting",
+      "dashboard",
+      "run",
+      "doc1",
+      "doc2"
+    ],
+    "Software": [
+      "doc3",
+      "doc4"
+    ],
+    "Hardware": [
+      "doc5"
+    ],
+    "API": [
+      "doc6"
+    ]
   }
 }
