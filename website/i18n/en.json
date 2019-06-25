@@ -5,6 +5,10 @@
     "previous": "Previous",
     "tagline": "Your farm in your palm",
     "docs": {
+      "api": {
+        "title": "API",
+        "sidebar_label": "API"
+      },
       "dashboard": {
         "title": "Dashboard Structure",
         "sidebar_label": "Dashboard"
@@ -29,6 +33,22 @@
       "doc6": {
         "title": "Document 6"
       },
+      "flask": {
+        "title": "Flask Web framework",
+        "sidebar_label": "Flask"
+      },
+      "ngrok": {
+        "title": "Making Data Accessible over the WWW",
+        "sidebar_label": "Ngrok"
+      },
+      "run": {
+        "title": "Running our web app",
+        "sidebar_label": "Run App"
+      },
+      "sensors": {
+        "title": "Sensors",
+        "sidebar_label": "Sensors"
+      },
       "starting": {
         "title": "Welcome",
         "sidebar_label": "Welcome"
@@ -41,8 +61,8 @@
     },
     "categories": {
       "Overview": "Overview",
-      "Software": "Software",
       "Hardware": "Hardware",
+      "Software": "Software",
       "API": "API"
     }
   },

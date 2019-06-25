@@ -3,19 +3,17 @@
     "Overview": [
       "starting",
       "dashboard",
-      "run",
-      "doc1",
-      "doc2"
-    ],
-    "Software": [
-      "doc3",
-      "doc4"
+      "run"
     ],
     "Hardware": [
-      "doc5"
+      "sensors"
+    ],
+    "Software": [
+      "flask",
+      "ngrok"
     ],
     "API": [
-      "doc6"
+      "api"
     ]
   }
 }
