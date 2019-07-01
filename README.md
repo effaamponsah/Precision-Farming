@@ -6,7 +6,6 @@
 
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/flask.svg)
 ![PyPI - Wheel](https://img.shields.io/pypi/wheel/yes.svg)
-![PyPI - Implementation](https://img.shields.io/pypi/implementation/flask.svg)
 
 
 ## PrecisionFarming

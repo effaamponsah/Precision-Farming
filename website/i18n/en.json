@@ -46,8 +46,8 @@
         "sidebar_label": "Run App"
       },
       "sensors": {
-        "title": "Sensors",
-        "sidebar_label": "Sensors"
+        "title": "Devices",
+        "sidebar_label": "Devices"
       },
       "starting": {
         "title": "Welcome",

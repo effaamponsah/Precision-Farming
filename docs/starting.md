@@ -7,7 +7,9 @@ Welcome to the developer documentation website for Precision Farming. It is buil
 
 ## Introduction
 
-This project is a final year student project which uses raspberry pi together with some sensors to help monitor soil and the plant conditions over time and gives the user access to this data via a dashboard.
+This project is a final year student project which uses raspberry pi together with some sensors to help monitor soil and the plant conditions over time and gives the user access to this data via a dashboard. It assumes your are starting this project from a fresh raspberry pi.
+> If you have the raspberry pi which has the software installed on it, go [here]().
+
 This documentation discusses:
 
 - Hardware used and their assembly.

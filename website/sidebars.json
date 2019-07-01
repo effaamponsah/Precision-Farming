@@ -6,7 +6,8 @@
       "run"
     ],
     "Hardware": [
-      "sensors"
+      "sensors",
+      "design"
     ],
     "Software": [
       "flask",

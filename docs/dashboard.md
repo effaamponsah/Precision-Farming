@@ -15,7 +15,7 @@ This dashboard was built with a python web framework known as the `flask`. It is
 
 After cloning the repository from [here](https://github.com/effaamponsah/Precision-Farming), type
 ```cd Precision-Farming/dashboard``` and type ```ls```
-The results displays the file structure of the dashboard. It is from the `dashboard` that the sensors and the codes for the web app are.
+The results displays the file structure of the dashboard. It is from the `dashboard` directory that the sensors and the codes for the web app are.
 
 ```bash
 dashboard
