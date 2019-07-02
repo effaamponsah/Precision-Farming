@@ -13,6 +13,10 @@
         "title": "Dashboard Structure",
         "sidebar_label": "Dashboard"
       },
+      "design": {
+        "title": "Assembly",
+        "sidebar_label": "Assembly"
+      },
       "doc1": {
         "title": "Latin-ish",
         "sidebar_label": "Example Page"
@@ -42,8 +46,8 @@
         "sidebar_label": "Ngrok"
       },
       "run": {
-        "title": "Running our web app",
-        "sidebar_label": "Run App"
+        "title": "Running our devices",
+        "sidebar_label": "Run Devices"
       },
       "sensors": {
         "title": "Devices",

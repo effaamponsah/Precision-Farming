@@ -97,3 +97,5 @@ Now that you have a fair idea of the structure of the project, lets run our appl
 > Navigate into the dashbaord if you havent done so.
 
 To run the application, simply type ```python3 app.py```
+
+The application should start runnning on your local host. **GREAT !!!**
